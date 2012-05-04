@@ -10,7 +10,10 @@ How to install:
 
 1. Extract the yii framework into your webroot (yii-1.1.10) 
 2. Extract the coding contest files into a directory (for example library/)
-3. Load the .sql file in protected/docs/library.sql into your mysql database
-4. Set the DB Connection in protected/config/main.php
-5. Run http://localhost/library
+3. If not existing, create a empty directory assets/ and protected/runtime.
+Make sure the Web Server process can write into these.
+4. Load the .sql file in protected/docs/library.sql into your mysql database
+5. Set the DB Connection in protected/config/main.php (db, username & password)
+6. Run http://localhost/library.
+7. Follow the On-Screen Instructions
 
